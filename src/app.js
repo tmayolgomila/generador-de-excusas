@@ -17,11 +17,11 @@ window.onload = function() {
     "during my lunch",
     "while I was praying"
   ];
-  var quien = who[Math.floor(Math.random() * who.length - 1)];
+  var quien = who[Math.floor(Math.random() * (who.length - 1))];
 
-  var que = what[Math.floor(Math.random() * what.length - 1)];
+  var que = what[Math.floor(Math.random() * (what.length - 1))];
 
-  var donde = when[Math.floor(Math.random() * when.length - 1)];
+  var donde = when[Math.floor(Math.random() * (when.length - 1))];
 
   const element = document.getElementById("boton");
   element.addEventListener("click", myFunction);
